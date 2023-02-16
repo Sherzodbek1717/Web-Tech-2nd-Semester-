@@ -1,0 +1,15 @@
+doctype5
+html
+	head
+		title= title
+	body
+		nav
+			a(href='/') Home
+			a(href='/about') About
+			a(href='/students') Students
+
+		
+		h1= title
+
+		each student in students
+			p #{student.name} | 
